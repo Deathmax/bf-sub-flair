@@ -34,6 +34,7 @@ if __name__ == "__main__":
     authenticated_user = r.get_me()
     printl('Logged in as: ' + authenticated_user.name)
     
+    '''
     while True:
         try:
             printl('Fetching flair CSV')
@@ -64,3 +65,4 @@ if __name__ == "__main__":
             raise
         except Exception as e:
             printl('ERROR: ' + str(e))
+            '''
