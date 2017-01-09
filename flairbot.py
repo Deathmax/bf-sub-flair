@@ -34,6 +34,9 @@ if __name__ == "__main__":
     authenticated_user = r.get_me()
     printl('Logged in as: ' + authenticated_user.name)
     
+    printl('Sleeping for 60 seconds')
+    sleep(60)
+    
     '''
     while True:
         try:
