@@ -34,10 +34,6 @@ if __name__ == "__main__":
     authenticated_user = r.get_me()
     printl('Logged in as: ' + authenticated_user.name)
     
-    printl('Sleeping for 60 seconds')
-    sleep(60)
-    
-    '''
     while True:
         try:
             printl('Fetching flair CSV')
@@ -47,7 +43,7 @@ if __name__ == "__main__":
             for message in messages:
                 print message
                 if message.was_comment:
-                    message.mark_read()
+                    message.mark_as_read()
                     continue
                 if message.subject in flairList:
                     if (flairList[message.subject] == '*' or
@@ -61,11 +57,10 @@ if __name__ == "__main__":
                     else:
                         message.reply('_This is an automated message from the /r/bravefrontier bot._\n\nSorry, you have no permission to set that flair.')
                         printl('Rejected set ' + message.author + ' flair to ' + message.subject + ' with text ' + message.body)
-                message.mark_read()
+                message.mark_as_read()
             printl('Sleeping for 60 seconds')
             sleep(60)
         except KeyboardInterrupt:
             raise
         except Exception as e:
             printl('ERROR: ' + str(e))
-            '''
