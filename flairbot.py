@@ -14,6 +14,8 @@ def getFlairCsv():
     flairList = {}
     for line in lines:
         parts = line.split(',')
+        if len(parts) != 2:
+            continue
         flairList[parts[0]] = parts[1]
     return flairList
 
