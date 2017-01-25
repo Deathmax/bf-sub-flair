@@ -256,6 +256,9 @@
 60 rsoe 256,*
 61 rsoe 257,*
 62 rsoe 258,*
+63 rsoe 259,*
+64 rsoe 260,*
+65 rsoe 261,*
 1 freeall f1,*
 2 freeall f2,*
 3 freeall f3,*
@@ -322,8 +325,6 @@
 78 freeall m28,*
 79 freeall m29,*
 80 freeall m30,*
-81 freeall m31,*
-82 freeall m32,*
 1 gl d1,*
 2 gl d2,*
 3 gl d3,*
@@ -401,13 +402,7 @@
 84 gl g34,*
 85 gl g35,*
 86 gl g36,*
-87 gl g37,*
-88 gl g38,*
-89 gl g39,*
 90 gl g40,*
-91 gl g41,*
-92 gl g42,*
-93 gl g43,*
 94 gl g44,*
 101 gl l1,*
 102 gl l2,*
