@@ -259,6 +259,9 @@
 63 rsoe 259,*
 64 rsoe 260,*
 65 rsoe 261,*
+66 rsoe 262,*
+67 rsoe 263,*
+68 rsoe 264,*
 1 freeall f1,*
 2 freeall f2,*
 3 freeall f3,*
@@ -403,6 +406,7 @@
 85 gl g35,*
 86 gl g36,*
 90 gl g40,*
+91 gl g41,*
 94 gl g44,*
 101 gl l1,*
 102 gl l2,*
@@ -521,6 +525,8 @@
 102 jpeu e52,*
 103 jpeu e53,*
 104 jpeu e54,*
+105 jpeu e55,*
+106 jpeu e56,*
 1 alt 39-alt,*
 2 alt 41-alt,*
 3 alt g22-alt,*
