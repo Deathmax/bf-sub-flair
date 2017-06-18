@@ -280,6 +280,9 @@
 84 rsoe 280,*
 85 rsoe 281,*
 86 rsoe 282,*
+87 rsoe 283,*
+88 rsoe 284,*
+89 rsoe 285,*
 1 freeall f1,*
 2 freeall f2,*
 3 freeall f3,*
@@ -472,6 +475,8 @@
 1-26 gl l26,*
 1-27 gl l27,*
 1-28 gl l28,*
+1-29 gl l29,*
+1-30 gl l30,*
 1 jpeu a1,*
 2 jpeu a2,*
 3 jpeu a3,*
@@ -577,6 +582,10 @@
 111 jpeu e61,*
 112 jpeu e62,*
 113 jpeu e63,*
+114 jpeu e64,*
+115 jpeu e65,*
+116 jpeu e66,*
+117 jpeu e67,*
 1 alt 26-alt,*
 2 alt 39-alt,*
 3 alt 41-alt,*
