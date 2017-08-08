@@ -283,6 +283,14 @@
 87 rsoe 283,*
 88 rsoe 284,*
 89 rsoe 285,*
+90 rsoe 286,*
+91 rsoe 287,*
+92 rsoe 288,*
+93 rsoe 289,*
+94 rsoe 290,*
+95 rsoe 291,*
+96 rsoe 292,*
+97 rsoe 293,*
 1 freeall f1,*
 2 freeall f2,*
 3 freeall f3,*
@@ -360,6 +368,8 @@
 86 freeall m36,*
 87 freeall m37,*
 88 freeall m38,*
+89 freeall m39,*
+90 freeall m40,*
 1 gl d1,*
 2 gl d2,*
 3 gl d3,*
@@ -447,6 +457,8 @@
 93 gl g43,*
 94 gl g44,*
 95 gl g45,*
+96 gl g46,*
+98 gl g48,*
 101 gl l1,*
 102 gl l2,*
 103 gl l3,*
@@ -477,6 +489,11 @@
 1-28 gl l28,*
 1-29 gl l29,*
 1-30 gl l30,*
+1-31 gl l31,*
+1-33 gl l33,*
+1-34 gl l34,*
+1-36 gl l36,*
+1-37 gl l37,*
 1 jpeu a1,*
 2 jpeu a2,*
 3 jpeu a3,*
@@ -586,8 +603,12 @@
 115 jpeu e65,*
 116 jpeu e66,*
 117 jpeu e67,*
+118 jpeu e68,*
+119 jpeu e69,*
+120 jpeu e70,*
 1 alt 26-alt,*
 2 alt 39-alt,*
-3 alt 41-alt,*
-4 alt g22-alt,*
+3 alt g22-alt,*
+4 alt g45-alt,*
+4 alt g46-alt,*
 quad dmx,Deathmax
