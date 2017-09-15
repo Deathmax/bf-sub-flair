@@ -291,6 +291,13 @@
 95 rsoe 291,*
 96 rsoe 292,*
 97 rsoe 293,*
+98 rsoe 294,*
+99 rsoe 295,*
+100 rsoe 296,*
+101 rsoe 297,*
+102 rsoe 298,*
+103 rsoe 299,*
+104 rsoe 300,*
 1 freeall f1,*
 2 freeall f2,*
 3 freeall f3,*
@@ -370,6 +377,7 @@
 88 freeall m38,*
 89 freeall m39,*
 90 freeall m40,*
+91 freeall m41,*
 1 gl d1,*
 2 gl d2,*
 3 gl d3,*
@@ -458,7 +466,9 @@
 94 gl g44,*
 95 gl g45,*
 96 gl g46,*
+97 gl g47,*
 98 gl g48,*
+100 gl g50,*
 101 gl l1,*
 102 gl l2,*
 103 gl l3,*
@@ -494,6 +504,7 @@
 1-34 gl l34,*
 1-36 gl l36,*
 1-37 gl l37,*
+1-38 gl l38,*
 1 jpeu a1,*
 2 jpeu a2,*
 3 jpeu a3,*
@@ -606,9 +617,13 @@
 118 jpeu e68,*
 1-19 jpeu e69,*
 1-20 jpeu e70,*
+1-21 jpeu e71,*
+1-22 jpeu e72,*
+1-23 jpeu e73,*
 1 alt 26-alt,*
-2 alt 39-alt,*
+2 alt 85-alt,*
 3 alt g22-alt,*
 4 alt g45-alt,*
-4 alt g46-alt,*
-quad dmx,Deathmax
+5 alt g46-alt,*
+7 alt 267-alt,*
+8 alt m41-alt,*
