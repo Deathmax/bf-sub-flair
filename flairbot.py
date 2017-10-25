@@ -1,9 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import praw
 import requests
 import json
 import io
+import sys
 from time import sleep
 from datetime import datetime
+
+# BAD
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 
 def printl(msg):
@@ -41,11 +49,11 @@ if __name__ == "__main__":
         try:
             printl('Fetching flair CSV')
             flairList = getFlairCsv()
+            printl('Flair CSV has ' + str(len(flairList)) + ' entries.')
             printl('Getting messages')
             messages = r.inbox.unread(mark_read=False, limit=30)
             for message in messages:
-                print message
-                if isinstance(message, praw.Comment):
+                if isinstance(message, praw.models.Comment):
                     message.mark_read()
                     continue
                 if message.subject in flairList:
@@ -56,11 +64,11 @@ if __name__ == "__main__":
                             flairText = ''
                         r.subreddit('bravefrontier').flair.set(message.author, message.body, message.subject)
                         message.reply('_This is an automated message from the /r/bravefrontier bot._\n\nYour flair has been set to\'' + message.subject + '\'.')
-                        printl('Set ' + message.author + ' flair to ' + message.subject + ' with text ' + flairText)
+                        printl('Set ' + str(message.author) + ' flair to ' + message.subject + ' with text ' + flairText)
                     else:
                         message.reply('_This is an automated message from the /r/bravefrontier bot._\n\nSorry, you have no permission to set that flair.')
-                        printl('Rejected set ' + message.author + ' flair to ' + message.subject + ' with text ' + message.body)
-                message.mark_as_read()
+                        printl('Rejected set ' + str(message.author) + ' flair to ' + message.subject + ' with text ' + message.body)
+                message.mark_read()
             printl('Sleeping for 60 seconds')
             sleep(60)
         except KeyboardInterrupt:
