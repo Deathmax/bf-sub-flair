@@ -1,0 +1,6 @@
+{
+    "client_id": "CLIENT_ID",
+    "client_secret": "CLIENT_SECRET",
+    "redirect_uri": "http://localhost:8080",
+    "refresh_token": "REFRESH_TOKEN"
+}
