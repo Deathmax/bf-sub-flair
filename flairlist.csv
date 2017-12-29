@@ -306,6 +306,8 @@
 110 rsoe 306,*
 111 rsoe 307,*
 112 rsoe 308,*
+113 rsoe 309,*
+114 rsoe 310,*
 1 freeall f1,*
 2 freeall f2,*
 3 freeall f3,*
@@ -430,6 +432,8 @@
 41 gl d41,*
 42 gl d42,*
 43 gl d43,*
+44 gl d44,*
+45 gl d45,*
 51 gl g1,*
 52 gl g2,*
 53 gl g3,*
@@ -479,6 +483,7 @@
 97 gl g47,*
 98 gl g48,*
 99 gl g49,*
+100 gl g50,*
 101 gl l1,*
 102 gl l2,*
 103 gl l3,*
@@ -517,6 +522,8 @@
 1-38 gl l38,*
 1-39 gl l39,*
 1-40 gl l40,*
+1-41 gl l41,*
+1-42 gl l42,*
 1-43 gl l43,*
 1-44 gl l44,*
 1-45 gl l45,*
@@ -524,8 +531,13 @@
 1-47 gl l47,*
 1-48 gl l48,*
 1-49 gl l49,*
+1-50 gl l50,*
 1 gle g51,*
 3 gle g53,*
+26 gle l51,*
+27 gle l52,*
+28 gle l53,*
+29 gle l54,*
 1 jpeu a1,*
 2 jpeu a2,*
 3 jpeu a3,*
